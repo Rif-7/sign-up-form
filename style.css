@@ -136,3 +136,17 @@ input[type="password"]:invalid + span::before {
     color: red;
     font-size: 14px;
 }
+
+.credits {
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: "Syne", monospace;
+}
+
+.credits > a {
+    color: white;
+}
